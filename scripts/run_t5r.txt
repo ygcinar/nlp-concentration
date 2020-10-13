@@ -1,0 +1,15 @@
+cd /home/ama/cinar/Documents/exp/glab/concnlp/c/concnlp/src
+conda activate py3.7_rmtnlp
+python train_evaluate.py -f lssvm -n 500  -d yqa -e dc-tfidf -c "Society & Culture" "Education & Reference" -k rbf -r 0.03125 -s 0.03125 --model_dir ../../../experiments_fr/{}/{}_n500/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 500  -d yqa -e dc-tfidf -c "Society & Culture" "Education & Reference" -k rbf -r 0.0625 -s 0.0625 --model_dir ../../../experiments_fr/{}/{}_n500/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 500  -d yqa -e dc-tfidf -c "Society & Culture" "Education & Reference" -k rbf -r 0.125 -s 0.125 --model_dir ../../../experiments_fr/{}/{}_n500/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 500  -d yqa -e dc-tfidf -c "Society & Culture" "Education & Reference" -k rbf -r 0.25 -s 0.25 --model_dir ../../../experiments_fr/{}/{}_n500/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 500  -d yqa -e dc-tfidf -c "Society & Culture" "Education & Reference" -k rbf -r 0.5 -s 0.5 --model_dir ../../../experiments_fr/{}/{}_n500/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 500  -d yqa -e dc-tfidf -c "Society & Culture" "Education & Reference" -k rbf -r 1.0 -s 1.0 --model_dir ../../../experiments_fr/{}/{}_n500/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 500  -d yqa -e dc-tfidf -c "Society & Culture" "Education & Reference" -k rbf -r 2.0 -s 2.0 --model_dir ../../../experiments_fr/{}/{}_n500/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 500  -d yqa -e dc-tfidf -c "Society & Culture" "Education & Reference" -k rbf -r 4.0 -s 4.0 --model_dir ../../../experiments_fr/{}/{}_n500/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 500  -d yqa -e dc-tfidf -c "Society & Culture" "Education & Reference" -k rbf -r 8.0 -s 8.0 --model_dir ../../../experiments_fr/{}/{}_n500/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 500  -d yqa -e dc-tfidf -c "Society & Culture" "Education & Reference" -k rbf -r 16.0 -s 16.0 --model_dir ../../../experiments_fr/{}/{}_n500/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 500  -d yqa -e dc-tfidf -c "Society & Culture" "Education & Reference" -k rbf -r 32.0 -s 32.0 --model_dir ../../../experiments_fr/{}/{}_n500/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 500  -d yqa -e dc-tfidf -c "Society & Culture" "Education & Reference" -k rbf -r 64.0 -s 64.0 --model_dir ../../../experiments_fr/{}/{}_n500/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 500  -d yqa -e dc-tfidf -c "Society & Culture" "Education & Reference" -k rbf -r 128.0 -s 128.0 --model_dir ../../../experiments_fr/{}/{}_n500/{}/{}_fr{}

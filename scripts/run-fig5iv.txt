@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./run_t5r.txt
+./run_t5p.txt
+./run_t2r.txt
+./run_t2p.txt

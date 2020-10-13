@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./run_w5r.txt
+./run_w5p.txt
+./run_w2r.txt
+./run_w2p.txt

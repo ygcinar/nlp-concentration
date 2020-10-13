@@ -1,0 +1,10 @@
+cd /home/ama/cinar/Documents/exp/glab/concnlp/c/concnlp/src
+conda activate py3.7_rmtnlp
+
+python train_evaluate.py -n 2000  -d gaussian -g v1_4 --Ntest 10000 -p 4 -x
+python train_evaluate.py -n 2000  -d gaussian -g v1_4 --Ntest 10000 -p 400 -x
+
+python train_evaluate.py -e dc-tfidf -c talk.religion.misc soc.religion.christian -n 1100 -d n20 -x
+python train_evaluate.py -e dc-tfidf-w2v -c talk.religion.misc soc.religion.christian -n 1100 -d n20 -x
+python train_evaluate.py -e dc-tfidf-glv -c talk.religion.misc soc.religion.christian -n 1100 -d n20 -x
+

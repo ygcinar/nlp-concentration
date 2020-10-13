@@ -1,0 +1,31 @@
+cd /home/ama/cinar/Documents/exp/glab/concnlp/c/concnlp/src
+conda activate py3.7_rmtnlp
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -150.0 -t 10 -150 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -125.0 -t 10 -125 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -100.0 -t 10 -100 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -75.0 -t 10 -75 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -50.0 -t 10 -50 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -25.0 -t 10 -25 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -25.0 -t 10 -25 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -20.0 -t 10 -20 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -15.0 -t 10 -15 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -10.0 -t 10 -10 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -5.0 -t 10 -5 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -4.0 -t 10 -4 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -3.0 -t 10 -3 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -2.0 -t 10 -2 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -1.0 -t 10 -1 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -1.0 -t 10 -1.0 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -0.8 -t 10 -0.8 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -0.6 -t 10 -0.6 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -0.4 -t 10 -0.4 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -0.2 -t 10 -0.2 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -0.0 -t 10 -0.0 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r 0.2 -t 10 0.2 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r 0.4 -t 10 0.4 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r 0.6 -t 10 0.6 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r 0.8 -t 10 0.8 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -0.125 -t 10 -0.125 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r -0.0625 -t 10 -0.0625 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r 0.125 -t 10 0.125 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
+python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -r 0.0625 -t 10 0.0625 1 --model_dir ../../../experiments_fr/{}/{}_f1_n2000/{}/{}_fr{}
