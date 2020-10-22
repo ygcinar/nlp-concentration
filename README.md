@@ -5,3 +5,5 @@
 to print arguments for training and evaluation:
 
 `python train_evaluate.py -h`
+
+Scripts for some figures are given under scripts/
