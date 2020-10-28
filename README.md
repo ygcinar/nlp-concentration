@@ -24,7 +24,7 @@ to train (and evaluate) lssvm with RBF kernel (sigma2=2) on 2000 samples of yaho
 to train (and evaluate) lssvm with polynomial kernel (f(t)=10 f'(t)=-5 f''(t)=1) on 2000 samples of yahoo answers dataset "Society & Culture" vs. "Education & Reference" categories using word2vec embeddings:  
 `python train_evaluate.py -f lssvm -n 2000  -d yqa -e dc-tfidf-w2v -c "Society & Culture" "Education & Reference" -k poly -t 10 -5 1`
 
-Scripts for some figures are given under scripts/
+Scripts for some figures are given under scripts/  
 example of running scripts for Figure 2:  
 
 `cd scripts`  
